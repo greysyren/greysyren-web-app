@@ -1,0 +1,40 @@
+:root {
+    --main-bg-color: #f4f6ff;
+    --main-accent: #ea907a;
+    --secondary-accent: #ffcb74;
+    --tertiary-accent: #4f8a8b;
+  }
+
+html {
+    background-color: var(--main-bg-color);
+}
+
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--main-accent);
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: var(--main-bg-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.menutext a:hover {  /* Change the link color on hover */
+    background-color: var(--main-bg-color);
+    color: var(--main-accent);
+  } 
+
+li img {
+    width: 40px;
+  }
