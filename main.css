@@ -38,3 +38,25 @@ li a {
 li img {
     width: 40px;
   }
+
+.card{
+  border-radius: 5px;
+  width: 250px;
+  border: 1px solid #a3a3a3;
+  text-align:center;
+}
+
+.card:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.container{
+  padding: 2px 16 px;
+}
+
+#swapPic {
+  border-radius: 5x 5px 0 0;
+  border-bottom:1px solid #a3a3a3;
+}
