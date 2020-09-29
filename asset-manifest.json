@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/greysyren-web-app/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/greysyren-web-app/static/js/main.e7435500.chunk.js",
+    "main.js.map": "/greysyren-web-app/static/js/main.e7435500.chunk.js.map",
+    "runtime-main.js": "/greysyren-web-app/static/js/runtime-main.5514f19e.js",
+    "runtime-main.js.map": "/greysyren-web-app/static/js/runtime-main.5514f19e.js.map",
+    "static/js/2.29eb80a7.chunk.js": "/greysyren-web-app/static/js/2.29eb80a7.chunk.js",
+    "static/js/2.29eb80a7.chunk.js.map": "/greysyren-web-app/static/js/2.29eb80a7.chunk.js.map",
+    "index.html": "/greysyren-web-app/index.html",
+    "precache-manifest.2445459736ad1bc80d5de66ef8b4aeb4.js": "/greysyren-web-app/precache-manifest.2445459736ad1bc80d5de66ef8b4aeb4.js",
+    "service-worker.js": "/greysyren-web-app/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/greysyren-web-app/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.29eb80a7.chunk.js.LICENSE.txt": "/greysyren-web-app/static/js/2.29eb80a7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5514f19e.js",
+    "static/js/2.29eb80a7.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.e7435500.chunk.js"
+  ]
+}
