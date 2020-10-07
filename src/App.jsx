@@ -3,7 +3,7 @@ import Navigation from './components/navigation';
 import Header from './components/header';
 import Quoteblock from './components/quoteblock';
 import About from './components/about';
-import Services from './components/services';
+import Swapsec from './components/swapsec';
 import Gallery from './components/gallery';
 import Testimonials from './components/testimonials';
 import Team from './components/Team';
@@ -29,7 +29,7 @@ export class App extends Component {
         <Header data={this.state.landingPageData.Header} />
         <Quoteblock data={this.state.landingPageData.Quoteblock} />
         <About data={this.state.landingPageData.About} />
-        <Services data={this.state.landingPageData.Services} />
+        <Swapsec data={this.state.landingPageData.Swapsec} />
         <Gallery />
         <Testimonials data={this.state.landingPageData.Testimonials} />
         <Team data={this.state.landingPageData.Team} />

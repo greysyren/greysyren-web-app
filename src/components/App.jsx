@@ -3,7 +3,7 @@ import Navigation from './navigation';
 import Header from './header';
 import Quoteblock from './quoteblock';
 import About from './about';
-import Services from './services';
+import Swapsec from './swapsec';
 import Gallery from './gallery';
 import Testimonials from './testimonials';
 import Team from './Team';
@@ -40,7 +40,7 @@ export class App extends Component {
         <Header data={this.state.resumeData.Header}/>
         <Quoteblock data={this.state.resumeData.Quoteblock}/>
         <About  data={this.state.resumeData.About}/>
-        <Services  data={this.state.resumeData.Services}/>
+        <Swapsec  data={this.state.resumeData.Swapsec}/>
         <Gallery />
         <Testimonials  data={this.state.resumeData.Testimonials}/>
         <Team  data={this.state.resumeData.Team}/>

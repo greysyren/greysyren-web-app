@@ -1,6 +1,6 @@
 {
   "name": "landingpage-react-template",
-  "homepage": "http://greysyren.github.io/greysyren-web-app",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

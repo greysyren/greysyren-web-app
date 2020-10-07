@@ -6,15 +6,13 @@ body, html {
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	background: #F4F6FF;
 }
 h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
 h2 {
-	text-transform: uppercase;
-	margin: 0 0 20px 0;
-	font-weight: 800;
-	font-size: 36px;
+	font-size: 46px;
 	color: #333;
 }
 h3 {
@@ -153,10 +151,9 @@ hr {
 }
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;
 	color: #fff;
-	background-color: #FFCB74;
-	background-image: linear-gradient(to right, #EA907A 0%, #FFCB74 100%);
+	background-color: rgba(244, 246, 255, 0.7);
+	/*background-image: linear-gradient(to right, #EA907A 0%, #FFCB74 100%);*/
 	padding: 14px 15px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -166,10 +163,28 @@ hr {
 	transition: all 0.5s linear;
 	border: 0;
 }
+.btn-getstarted {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	background-color: #EA907A;
+	padding: 20px 42px;
+	letter-spacing: 1px;
+	margin: 0;
+	font-size: 28px;
+	font-weight: 500;
+	border-radius: 30px;
+	transition: all 0.5s linear;
+	border: 0;
+}
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
+	color: #000000;
+	background-image: none;
+	background-color: #fff;
+}
+.btn-getstarted:hover, .btn-getstarted:focus, .btn-getstarted.focus, .btn-getstarted:active, .btn-getstarted.active {
 	color: #fff;
 	background-image: none;
-	background-color: #EA907A;
+	background-color: #FFCB74;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -233,92 +248,63 @@ header .intro-text {
 #about {
 	padding: 100px 0;
 }
-#about h3 {
-	font-size: 22px;
-	margin: 0 0 20px 0;
+#about h1 {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	padding: 15px 0px;
+	color: #777;
 }
-#about h2 {
+#about .about-text {
+	margin: auto;
+	text-align: center;
+}
+#about .about-text p {
+	font-family: 'Lora', serif;
+	font-style: italic;
+	font-size: 26px;
+	font-weight: 300;
+	padding: 40px 0px;
+}
+#about img {
+	margin: auto;
+	width: 520px;
+	height: 375px;
+	background: #fff;
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
+/* Swaps Section */
+#enterSwap {
+	width: 100%;
+	margin: 0 0px;
+	background: white;
+	display: flex;
+	flex-direction: row;
+}
+#enterSwap h1 {
+	font-family: 'Raleway', sans-serif;
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
+	padding-left: 20px;
+	text-align:center;
 }
-#about h2::after {
-	position: absolute;
-	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-	height: 4px;
-	width: 60px;
-	bottom: 0;
-	left: 0;
-}
-#about .about-text li {
+#enterSwap .enterSwap-text {
 	margin-bottom: 6px;
 	margin-left: 6px;
+	height: 60vh;
 	list-style: none;
 	padding: 0;
 }
-#about .about-text li:before {
-	content: '\f00c';
-	font-family: 'Lora', serif;
-	color: #5ca9fb;
-	font-size: 11px;
-	font-weight: 300;
-	padding-right: 8px;
+#enterSwap img {
+	width: 100%;
+	height: 100%;
+	align-self: left;
 }
-#about img {
-	width: 520px;
-	margin-top: 10px;
-	background: #fff;
-	border-right: 0;
-	box-shadow: 0 0 50px rgba(0,0,0,0.06);
-}
-#about p {
+#enterSwap p {
 	line-height: 24px;
 	margin: 30px 0;
 }
-/* Services Section */
-#services {
-	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	color: #fff;
-}
-#services .service-desc {
-	margin: 10px 10px 20px;
-}
-#services h2 {
-	color: #fff;
-}
-#services .section-title h2::after {
-	position: absolute;
-	content: "";
-	background: rgba(255,255,255,.3);
-	height: 4px;
-	width: 60px;
-	bottom: 0;
-	margin-left: -30px;
-	left: 50%;
-}
-#services i.fa {
-	font-size: 42px;
-	width: 120px;
-	height: 120px;
-	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	border-radius: 50%;
-	color: #fff;
-	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
-}
-#services h3 {
-	font-weight: 500;
-	padding: 5px 0;
-	color: #fff;
-}
-#services p {
-	color: rgba(255,255,255,.75);
-}
-#services .service-desc {
-	margin-bottom: 40px;
-}
+
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
