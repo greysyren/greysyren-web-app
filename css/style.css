@@ -6,15 +6,13 @@ body, html {
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	background: #F4F6FF;
 }
 h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
 h2 {
-	text-transform: uppercase;
-	margin: 0 0 20px 0;
-	font-weight: 800;
-	font-size: 36px;
+	font-size: 46px;
 	color: #333;
 }
 h3 {
@@ -52,8 +50,8 @@ ul, ol {
 }
 ul, ol {
 	padding: 0;
-	webkit-padding: 0;
-	moz-padding: 0;
+	/*webkit-padding: 0;
+	moz-padding: 0;*/
 }
 hr {
 	height: 2px;
@@ -153,10 +151,9 @@ hr {
 }
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;
 	color: #fff;
-	background-color: #FFCB74;
-	background-image: linear-gradient(to right, #EA907A 0%, #FFCB74 100%);
+	background-color: rgba(244, 246, 255, 0.7);
+	/*background-image: linear-gradient(to right, #EA907A 0%, #FFCB74 100%);*/
 	padding: 14px 15px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -166,7 +163,43 @@ hr {
 	transition: all 0.5s linear;
 	border: 0;
 }
+.btn-getstarted {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	background-color: #EA907A;
+	padding: 20px 42px;
+	letter-spacing: 1px;
+	margin: 0;
+	font-size: 28px;
+	font-weight: 500;
+	border-radius: 30px;
+	transition: all 0.5s linear;
+	border: 0;
+}
+.btn-swapsec {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	background-color: #FFCB74;
+	padding: 20px 42px;
+	letter-spacing: 1px;
+	margin: 0;
+	font-size: 28px;
+	font-weight: 500;
+	border-radius: 30px;
+	transition: all 0.5s linear;
+	border: 0;
+}
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
+	color: #000000;
+	background-image: none;
+	background-color: #fff;
+}
+.btn-getstarted:hover, .btn-getstarted:focus, .btn-getstarted.focus, .btn-getstarted:active, .btn-getstarted.active {
+	color: #fff;
+	background-image: none;
+	background-color: #FFCB74;
+}
+.btn-swapsec:hover, .btn-swapsec:focus, .btn-swapsec.focus, .btn-swapsec:active, .btn-swapsec.active {
 	color: #fff;
 	background-image: none;
 	background-color: #EA907A;
@@ -233,92 +266,64 @@ header .intro-text {
 #about {
 	padding: 100px 0;
 }
-#about h3 {
-	font-size: 22px;
-	margin: 0 0 20px 0;
-}
-#about h2 {
+#about h1 {
+	font-family: 'Raleway', sans-serif;
 	position: relative;
-	margin-bottom: 15px;
-	padding-bottom: 15px;
+	padding: 15px 0px;
+	color: #777;
 }
-#about h2::after {
-	position: absolute;
-	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-	height: 4px;
-	width: 60px;
-	bottom: 0;
-	left: 0;
+#about .about-text {
+	margin: auto;
+	text-align: center;
+	padding-bottom: 25px;
 }
-#about .about-text li {
-	margin-bottom: 6px;
-	margin-left: 6px;
-	list-style: none;
-	padding: 0;
-}
-#about .about-text li:before {
-	content: '\f00c';
+#about .about-text p {
 	font-family: 'Lora', serif;
-	color: #5ca9fb;
-	font-size: 11px;
+	font-style: italic;
+	font-size: 26px;
 	font-weight: 300;
-	padding-right: 8px;
+	padding: 40px 0px;
 }
 #about img {
+	border-radius: 20px;
+	margin: auto;
 	width: 520px;
-	margin-top: 10px;
+	height: 375px;
 	background: #fff;
-	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
-#about p {
-	line-height: 24px;
-	margin: 30px 0;
+/* Swaps Section */
+#enterSwap {
+	background: white;
+	overflow-x: hidden;
 }
-/* Services Section */
-#services {
-	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	color: #fff;
+#enterSwap h1 {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	padding: 115px 0px 15px 0px;
+	color: green;
 }
-#services .service-desc {
-	margin: 10px 10px 20px;
+#enterSwap .enterSwap-text {
+	text-align: center;
+	padding-bottom: 100px;
+	/*margin: auto;*/
+	/*margin-right: -15px;*/
 }
-#services h2 {
-	color: #fff;
+#enterSwap img {
+	/*width: 50%;*/
+	height: 70%;
+	/*margin-left: -15px;
+	margin-right: -30px;*/
 }
-#services .section-title h2::after {
-	position: absolute;
-	content: "";
-	background: rgba(255,255,255,.3);
-	height: 4px;
-	width: 60px;
-	bottom: 0;
-	margin-left: -30px;
-	left: 50%;
+#enterSwap .enterSwap-text p {
+	font-family: 'Lora', serif;
+	font-style: italic;
+	font-size: 26px;
+	font-weight: 300;
+	padding: 40px 50px;
+	text-align: center;
 }
-#services i.fa {
-	font-size: 42px;
-	width: 120px;
-	height: 120px;
-	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	border-radius: 50%;
-	color: #fff;
-	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
-}
-#services h3 {
-	font-weight: 500;
-	padding: 5px 0;
-	color: #fff;
-}
-#services p {
-	color: rgba(255,255,255,.75);
-}
-#services .service-desc {
-	margin-bottom: 40px;
-}
+
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
