@@ -11,7 +11,7 @@ export class about extends Component {
                 <h1>New to This?</h1>
                 <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p>
 
-                <a href="" className="btn btn-getstarted btn-lg page-scroll">Get Started</a>
+                <a href="#getstarted" className="btn btn-getstarted btn-lg page-scroll">Get Started</a>
 
               </div>
             </div>
